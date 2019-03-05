@@ -1,5 +1,9 @@
 # Outline
-This is real-time face detection and classification of the detected face using a single fully Convolutional Neural Network. The aim of the project was to experiment with combining regression and classification and have a model do both simultaneously. The bounding boxes are produced using regression and standard classification is used for classifying the detected objects. 
+This is real-time face detection and classification of the detected face using a single fully Convolutional Neural Network. The aim of the project was to experiment with combining regression and classification and have a model do both simultaneously. The bounding boxes are produced using regression and standard classification is used for classifying the detected objects.
+
+![Output from NN on a test data](http://www.cylopsis.com/img/face_attr_detection_test.png)
+
+*Image showing output by NN on one of the test image*
 
 The aim of the project was `NOT` to focus produce highly accurate models this can also be seen in results as the model failed to learn the age group classification although it does work for gender classification and face detection. It was only an experiment and also a learning exercise for me as it uses a custom NN with a custom loss function. It doesn't follow any popular architecture. 
 
